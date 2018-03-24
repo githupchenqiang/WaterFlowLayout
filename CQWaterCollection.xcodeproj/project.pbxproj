@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BEA33462064C62000BA499E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEA33452064C62000BA499E /* AppDelegate.swift */; };
+		0BEA33482064C62000BA499E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEA33472064C62000BA499E /* ViewController.swift */; };
+		0BEA334B2064C62000BA499E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BEA33492064C62000BA499E /* Main.storyboard */; };
+		0BEA334D2064C62000BA499E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BEA334C2064C62000BA499E /* Assets.xcassets */; };
+		0BEA33502064C62000BA499E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BEA334E2064C62000BA499E /* LaunchScreen.storyboard */; };
+		0BEA335B2064C62000BA499E /* CQWaterCollectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEA335A2064C62000BA499E /* CQWaterCollectionTests.swift */; };
+		0BEA33662064C62000BA499E /* CQWaterCollectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEA33652064C62000BA499E /* CQWaterCollectionUITests.swift */; };
+		0BEA338D2066115C00BA499E /* 1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0BEA33872066115C00BA499E /* 1.plist */; };
+		0BEA338E2066115C00BA499E /* cqWaterFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEA33882066115C00BA499E /* cqWaterFlowLayout.swift */; };
+		0BEA338F2066115C00BA499E /* PublicSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEA33892066115C00BA499E /* PublicSource.swift */; };
+		0BEA33902066115C00BA499E /* ShopsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEA338A2066115C00BA499E /* ShopsCell.swift */; };
+		0BEA33912066115C00BA499E /* ShopsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BEA338B2066115C00BA499E /* ShopsCell.xib */; };
+		0BEA33922066115C00BA499E /* Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEA338C2066115C00BA499E /* Source.swift */; };
+		4D0190C1A8E93F52364729C2 /* Pods_CQWaterCollection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCEF30899FD0BE5A0D605850 /* Pods_CQWaterCollection.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0BEA33572064C62000BA499E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BEA333A2064C62000BA499E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BEA33412064C62000BA499E;
+			remoteInfo = CQWaterCollection;
+		};
+		0BEA33622064C62000BA499E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BEA333A2064C62000BA499E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BEA33412064C62000BA499E;
+			remoteInfo = CQWaterCollection;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BEA33422064C62000BA499E /* CQWaterCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CQWaterCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BEA33452064C62000BA499E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0BEA33472064C62000BA499E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0BEA334A2064C62000BA499E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0BEA334C2064C62000BA499E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0BEA334F2064C62000BA499E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0BEA33512064C62000BA499E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BEA33562064C62000BA499E /* CQWaterCollectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CQWaterCollectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BEA335A2064C62000BA499E /* CQWaterCollectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CQWaterCollectionTests.swift; sourceTree = "<group>"; };
+		0BEA335C2064C62000BA499E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BEA33612064C62000BA499E /* CQWaterCollectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CQWaterCollectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BEA33652064C62000BA499E /* CQWaterCollectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CQWaterCollectionUITests.swift; sourceTree = "<group>"; };
+		0BEA33672064C62000BA499E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BEA337B2064F2FC00BA499E /* CQWaterCollection-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CQWaterCollection-Bridging-Header.h"; sourceTree = "<group>"; };
+		0BEA33872066115C00BA499E /* 1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 1.plist; sourceTree = "<group>"; };
+		0BEA33882066115C00BA499E /* cqWaterFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cqWaterFlowLayout.swift; sourceTree = "<group>"; };
+		0BEA33892066115C00BA499E /* PublicSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublicSource.swift; sourceTree = "<group>"; };
+		0BEA338A2066115C00BA499E /* ShopsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopsCell.swift; sourceTree = "<group>"; };
+		0BEA338B2066115C00BA499E /* ShopsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShopsCell.xib; sourceTree = "<group>"; };
+		0BEA338C2066115C00BA499E /* Source.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Source.swift; sourceTree = "<group>"; };
+		5BF1CF5E719C5219FA225910 /* Pods-CQWaterCollection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CQWaterCollection.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CQWaterCollection/Pods-CQWaterCollection.debug.xcconfig"; sourceTree = "<group>"; };
+		BCEF30899FD0BE5A0D605850 /* Pods_CQWaterCollection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CQWaterCollection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9FD1D83C81D56D369A01832 /* Pods-CQWaterCollection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CQWaterCollection.release.xcconfig"; path = "Pods/Target Support Files/Pods-CQWaterCollection/Pods-CQWaterCollection.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BEA333F2064C62000BA499E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D0190C1A8E93F52364729C2 /* Pods_CQWaterCollection.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BEA33532064C62000BA499E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BEA335E2064C62000BA499E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BEA33392064C62000BA499E = {
+			isa = PBXGroup;
+			children = (
+				0BEA33442064C62000BA499E /* CQWaterCollection */,
+				0BEA33592064C62000BA499E /* CQWaterCollectionTests */,
+				0BEA33642064C62000BA499E /* CQWaterCollectionUITests */,
+				0BEA33432064C62000BA499E /* Products */,
+				7C8DF50D812AC1E4E3AF02B8 /* Pods */,
+				417B7A553F42011F81BA8A4C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0BEA33432064C62000BA499E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BEA33422064C62000BA499E /* CQWaterCollection.app */,
+				0BEA33562064C62000BA499E /* CQWaterCollectionTests.xctest */,
+				0BEA33612064C62000BA499E /* CQWaterCollectionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0BEA33442064C62000BA499E /* CQWaterCollection */ = {
+			isa = PBXGroup;
+			children = (
+				0BEA33862066115C00BA499E /* WaterFlowLayout */,
+				0BEA33452064C62000BA499E /* AppDelegate.swift */,
+				0BEA33472064C62000BA499E /* ViewController.swift */,
+				0BEA33492064C62000BA499E /* Main.storyboard */,
+				0BEA334C2064C62000BA499E /* Assets.xcassets */,
+				0BEA334E2064C62000BA499E /* LaunchScreen.storyboard */,
+				0BEA33512064C62000BA499E /* Info.plist */,
+				0BEA337B2064F2FC00BA499E /* CQWaterCollection-Bridging-Header.h */,
+			);
+			path = CQWaterCollection;
+			sourceTree = "<group>";
+		};
+		0BEA33592064C62000BA499E /* CQWaterCollectionTests */ = {
+			isa = PBXGroup;
+			children = (
+				0BEA335A2064C62000BA499E /* CQWaterCollectionTests.swift */,
+				0BEA335C2064C62000BA499E /* Info.plist */,
+			);
+			path = CQWaterCollectionTests;
+			sourceTree = "<group>";
+		};
+		0BEA33642064C62000BA499E /* CQWaterCollectionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0BEA33652064C62000BA499E /* CQWaterCollectionUITests.swift */,
+				0BEA33672064C62000BA499E /* Info.plist */,
+			);
+			path = CQWaterCollectionUITests;
+			sourceTree = "<group>";
+		};
+		0BEA33862066115C00BA499E /* WaterFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				0BEA33872066115C00BA499E /* 1.plist */,
+				0BEA33882066115C00BA499E /* cqWaterFlowLayout.swift */,
+				0BEA33892066115C00BA499E /* PublicSource.swift */,
+				0BEA338A2066115C00BA499E /* ShopsCell.swift */,
+				0BEA338B2066115C00BA499E /* ShopsCell.xib */,
+				0BEA338C2066115C00BA499E /* Source.swift */,
+			);
+			path = WaterFlowLayout;
+			sourceTree = "<group>";
+		};
+		417B7A553F42011F81BA8A4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCEF30899FD0BE5A0D605850 /* Pods_CQWaterCollection.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7C8DF50D812AC1E4E3AF02B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5BF1CF5E719C5219FA225910 /* Pods-CQWaterCollection.debug.xcconfig */,
+				F9FD1D83C81D56D369A01832 /* Pods-CQWaterCollection.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0BEA33412064C62000BA499E /* CQWaterCollection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BEA336A2064C62000BA499E /* Build configuration list for PBXNativeTarget "CQWaterCollection" */;
+			buildPhases = (
+				6F4CBB6840C61A5E92D7D084 /* [CP] Check Pods Manifest.lock */,
+				0BEA333E2064C62000BA499E /* Sources */,
+				0BEA333F2064C62000BA499E /* Frameworks */,
+				0BEA33402064C62000BA499E /* Resources */,
+				DB61212BA3B11BEB15D79B60 /* [CP] Embed Pods Frameworks */,
+				B3655CACF6E3E7EDBC8C2E4F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CQWaterCollection;
+			productName = CQWaterCollection;
+			productReference = 0BEA33422064C62000BA499E /* CQWaterCollection.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0BEA33552064C62000BA499E /* CQWaterCollectionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BEA336D2064C62000BA499E /* Build configuration list for PBXNativeTarget "CQWaterCollectionTests" */;
+			buildPhases = (
+				0BEA33522064C62000BA499E /* Sources */,
+				0BEA33532064C62000BA499E /* Frameworks */,
+				0BEA33542064C62000BA499E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BEA33582064C62000BA499E /* PBXTargetDependency */,
+			);
+			name = CQWaterCollectionTests;
+			productName = CQWaterCollectionTests;
+			productReference = 0BEA33562064C62000BA499E /* CQWaterCollectionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0BEA33602064C62000BA499E /* CQWaterCollectionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BEA33702064C62000BA499E /* Build configuration list for PBXNativeTarget "CQWaterCollectionUITests" */;
+			buildPhases = (
+				0BEA335D2064C62000BA499E /* Sources */,
+				0BEA335E2064C62000BA499E /* Frameworks */,
+				0BEA335F2064C62000BA499E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BEA33632064C62000BA499E /* PBXTargetDependency */,
+			);
+			name = CQWaterCollectionUITests;
+			productName = CQWaterCollectionUITests;
+			productReference = 0BEA33612064C62000BA499E /* CQWaterCollectionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0BEA333A2064C62000BA499E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "chenq@kensence.com";
+				TargetAttributes = {
+					0BEA33412064C62000BA499E = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+					0BEA33552064C62000BA499E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0BEA33412064C62000BA499E;
+					};
+					0BEA33602064C62000BA499E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0BEA33412064C62000BA499E;
+					};
+				};
+			};
+			buildConfigurationList = 0BEA333D2064C62000BA499E /* Build configuration list for PBXProject "CQWaterCollection" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0BEA33392064C62000BA499E;
+			productRefGroup = 0BEA33432064C62000BA499E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0BEA33412064C62000BA499E /* CQWaterCollection */,
+				0BEA33552064C62000BA499E /* CQWaterCollectionTests */,
+				0BEA33602064C62000BA499E /* CQWaterCollectionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0BEA33402064C62000BA499E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BEA338D2066115C00BA499E /* 1.plist in Resources */,
+				0BEA33502064C62000BA499E /* LaunchScreen.storyboard in Resources */,
+				0BEA334D2064C62000BA499E /* Assets.xcassets in Resources */,
+				0BEA334B2064C62000BA499E /* Main.storyboard in Resources */,
+				0BEA33912066115C00BA499E /* ShopsCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BEA33542064C62000BA499E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BEA335F2064C62000BA499E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6F4CBB6840C61A5E92D7D084 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CQWaterCollection-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3655CACF6E3E7EDBC8C2E4F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CQWaterCollection/Pods-CQWaterCollection-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB61212BA3B11BEB15D79B60 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CQWaterCollection/Pods-CQWaterCollection-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DGElasticPullToRefresh/DGElasticPullToRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DGElasticPullToRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CQWaterCollection/Pods-CQWaterCollection-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BEA333E2064C62000BA499E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BEA33482064C62000BA499E /* ViewController.swift in Sources */,
+				0BEA338F2066115C00BA499E /* PublicSource.swift in Sources */,
+				0BEA33922066115C00BA499E /* Source.swift in Sources */,
+				0BEA338E2066115C00BA499E /* cqWaterFlowLayout.swift in Sources */,
+				0BEA33902066115C00BA499E /* ShopsCell.swift in Sources */,
+				0BEA33462064C62000BA499E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BEA33522064C62000BA499E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BEA335B2064C62000BA499E /* CQWaterCollectionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BEA335D2064C62000BA499E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BEA33662064C62000BA499E /* CQWaterCollectionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0BEA33582064C62000BA499E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0BEA33412064C62000BA499E /* CQWaterCollection */;
+			targetProxy = 0BEA33572064C62000BA499E /* PBXContainerItemProxy */;
+		};
+		0BEA33632064C62000BA499E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0BEA33412064C62000BA499E /* CQWaterCollection */;
+			targetProxy = 0BEA33622064C62000BA499E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0BEA33492064C62000BA499E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BEA334A2064C62000BA499E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0BEA334E2064C62000BA499E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BEA334F2064C62000BA499E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0BEA33682064C62000BA499E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0BEA33692064C62000BA499E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0BEA336B2064C62000BA499E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BF1CF5E719C5219FA225910 /* Pods-CQWaterCollection.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CQWaterCollection/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.Kensence.com.CQWaterCollection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CQWaterCollection/CQWaterCollection-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0BEA336C2064C62000BA499E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9FD1D83C81D56D369A01832 /* Pods-CQWaterCollection.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CQWaterCollection/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.Kensence.com.CQWaterCollection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CQWaterCollection/CQWaterCollection-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0BEA336E2064C62000BA499E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CQWaterCollectionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.Kensence.com.CQWaterCollectionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CQWaterCollection.app/CQWaterCollection";
+			};
+			name = Debug;
+		};
+		0BEA336F2064C62000BA499E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CQWaterCollectionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.Kensence.com.CQWaterCollectionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CQWaterCollection.app/CQWaterCollection";
+			};
+			name = Release;
+		};
+		0BEA33712064C62000BA499E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CQWaterCollectionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.Kensence.com.CQWaterCollectionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CQWaterCollection;
+			};
+			name = Debug;
+		};
+		0BEA33722064C62000BA499E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CQWaterCollectionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.Kensence.com.CQWaterCollectionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CQWaterCollection;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BEA333D2064C62000BA499E /* Build configuration list for PBXProject "CQWaterCollection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BEA33682064C62000BA499E /* Debug */,
+				0BEA33692064C62000BA499E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BEA336A2064C62000BA499E /* Build configuration list for PBXNativeTarget "CQWaterCollection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BEA336B2064C62000BA499E /* Debug */,
+				0BEA336C2064C62000BA499E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BEA336D2064C62000BA499E /* Build configuration list for PBXNativeTarget "CQWaterCollectionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BEA336E2064C62000BA499E /* Debug */,
+				0BEA336F2064C62000BA499E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BEA33702064C62000BA499E /* Build configuration list for PBXNativeTarget "CQWaterCollectionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BEA33712064C62000BA499E /* Debug */,
+				0BEA33722064C62000BA499E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0BEA333A2064C62000BA499E /* Project object */;
+}

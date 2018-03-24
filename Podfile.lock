@@ -1,0 +1,18 @@
+PODS:
+  - DGElasticPullToRefresh (1.1)
+  - Kingfisher (3.11.0)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - DGElasticPullToRefresh
+  - Kingfisher (~> 3.11.0)
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  DGElasticPullToRefresh: 28f11a6026302a90f8ffebbc6e24748e584dddd3
+  Kingfisher: c8911a7672c6217dec8c0520fb6e76ec4b7e0780
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: 5a8c40e788fd0a63ac2597090f3584809c204d4f
+
+COCOAPODS: 1.4.0.beta.1

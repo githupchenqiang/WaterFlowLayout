@@ -1,0 +1,7 @@
+platform :ios, '8.0'
+use_frameworks!
+target 'CQWaterCollection' do
+pod 'SwiftyJSON'
+pod 'Kingfisher', '~> 3.11.0'
+pod 'DGElasticPullToRefresh'
+end
